@@ -4,7 +4,7 @@ services:
     container_name: mealie
     image: hkotel/mealie:latest
     restart: always
-    hostname: mealie
+    hostname: meali
     ports:
       - 9925:80
     environment:
